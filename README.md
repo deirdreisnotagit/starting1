@@ -1,6 +1,6 @@
 # starting_point
 
-A new Flutter application.
+A Flutter application to display census data in graphical form for a chosen state legislative district.
 
 ## Getting Started
 
