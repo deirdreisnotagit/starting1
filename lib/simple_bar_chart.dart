@@ -20,10 +20,19 @@ class SimpleBarChart extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return new charts.BarChart(
+    var chart1 = new charts.BarChart(
       seriesList,
       animate: animate,
     );
+    var chartWidget1 = new Padding(
+      padding: new EdgeInsets.all(22.0),
+      child: new SizedBox(
+        height: 150.0,
+        child: chart1,
+      ),
+    );
+    return chartWidget1;
+
   }
 
   /// Create one series with sample hard coded data.

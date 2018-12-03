@@ -1,4 +1,3 @@
-
 /// Bar chart example
 import 'package:flutter/material.dart';
 import 'package:charts_flutter/flutter.dart' as charts;
@@ -22,12 +21,21 @@ class HorizBarChart extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // For horizontal bar charts, set the [vertical] flag to false.
-    return new charts.BarChart(
+
+    var chart = new charts.BarChart(
       seriesList,
       animate: animate,
       barGroupingType: charts.BarGroupingType.stacked,
       vertical: false,
     );
+    var chartWidget = new Padding(
+    padding: new EdgeInsets.all(22.0),
+    child: new SizedBox(
+    height: 150.0,
+    child: chart,
+    ),
+    );
+    return chartWidget;
   }
 
 static List<charts.Series<OrdinalSales, String>> _createSampleData() {
