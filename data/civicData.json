@@ -1,0 +1,236 @@
+{
+ "kind": "civicinfo#representativeInfoResponse",
+ "normalizedInput": {
+  "line1": "192 Escuela Avenue",
+  "city": "Mountain View",
+  "state": "CA",
+  "zip": "94040"
+ },
+ "divisions": {
+  "ocd-division/country:us/state:ca": {
+   "name": "California",
+   "officeIndices": [
+    0
+   ]
+  },
+  "ocd-division/country:us/state:ca/cd:18": {
+   "name": "California's 18th congressional district",
+   "officeIndices": [
+    1
+   ]
+  },
+  "ocd-division/country:us/state:ca/sldl:24": {
+   "name": "California Assembly district 24",
+   "officeIndices": [
+    3
+   ]
+  },
+  "ocd-division/country:us/state:ca/sldu:13": {
+   "name": "California State Senate district 13",
+   "officeIndices": [
+    2
+   ]
+  }
+ },
+ "offices": [
+  {
+   "name": "United States Senate",
+   "divisionId": "ocd-division/country:us/state:ca",
+   "levels": [
+    "country"
+   ],
+   "roles": [
+    "legislatorUpperBody"
+   ],
+   "officialIndices": [
+    0,
+    1
+   ]
+  },
+  {
+   "name": "United States House of Representatives CA-18",
+   "divisionId": "ocd-division/country:us/state:ca/cd:18",
+   "levels": [
+    "country"
+   ],
+   "roles": [
+    "legislatorLowerBody"
+   ],
+   "officialIndices": [
+    2
+   ]
+  },
+  {
+   "name": "CA State Senate District 13",
+   "divisionId": "ocd-division/country:us/state:ca/sldu:13",
+   "levels": [
+    "administrativeArea1"
+   ],
+   "roles": [
+    "legislatorUpperBody"
+   ],
+   "officialIndices": [
+    3
+   ]
+  },
+  {
+   "name": "CA State Assembly District 24",
+   "divisionId": "ocd-division/country:us/state:ca/sldl:24",
+   "levels": [
+    "administrativeArea1"
+   ],
+   "roles": [
+    "legislatorLowerBody"
+   ],
+   "officialIndices": [
+    4
+   ]
+  }
+ ],
+ "officials": [
+  {
+   "name": "Kamala D. Harris",
+   "address": [
+    {
+     "line1": "112 Hart Senate Office Building",
+     "city": "Washington",
+     "state": "DC",
+     "zip": "20510"
+    }
+   ],
+   "party": "Democratic",
+   "phones": [
+    "(202) 224-3553"
+   ],
+   "urls": [
+    "https://www.harris.senate.gov"
+   ],
+   "channels": [
+    {
+     "type": "Twitter",
+     "id": "KamalaHarris"
+    },
+    {
+     "type": "YouTube",
+     "id": "UC0XBsJpPhOLg0k4x9ZwrWzw"
+    }
+   ]
+  },
+  {
+   "name": "Dianne Feinstein",
+   "address": [
+    {
+     "line1": "331 Hart Senate Office Building",
+     "city": "Washington",
+     "state": "DC",
+     "zip": "20510"
+    }
+   ],
+   "party": "Democratic",
+   "phones": [
+    "(202) 224-3841"
+   ],
+   "urls": [
+    "http://www.feinstein.senate.gov/public/"
+   ],
+   "photoUrl": "http://bioguide.congress.gov/bioguide/photo/F/F000062.jpg",
+   "channels": [
+    {
+     "type": "Facebook",
+     "id": "SenatorFeinstein"
+    },
+    {
+     "type": "Twitter",
+     "id": "SenFeinstein"
+    },
+    {
+     "type": "YouTube",
+     "id": "SenatorFeinstein"
+    }
+   ]
+  },
+  {
+   "name": "Anna G. Eshoo",
+   "address": [
+    {
+     "line1": "241 Cannon House Office Building",
+     "city": "Washington",
+     "state": "DC",
+     "zip": "20515"
+    }
+   ],
+   "party": "Democratic",
+   "phones": [
+    "(202) 225-8104"
+   ],
+   "urls": [
+    "http://eshoo.house.gov/"
+   ],
+   "photoUrl": "http://eshoo.house.gov/wp-content/uploads/2014/07/Congresswoman_Anna_Eshoo-199x300.jpg",
+   "channels": [
+    {
+     "type": "Facebook",
+     "id": "RepAnnaEshoo"
+    },
+    {
+     "type": "Twitter",
+     "id": "RepAnnaEshoo"
+    },
+    {
+     "type": "YouTube",
+     "id": "RepAnnaEshoo"
+    }
+   ]
+  },
+  {
+   "name": "Jerry Hill",
+   "address": [
+    {
+     "line1": "STATE CAPITOL",
+     "line2": "1303 10TH ST RM 5035",
+     "city": "Sacramento",
+     "state": "CA",
+     "zip": "95814"
+    }
+   ],
+   "party": "Democratic",
+   "phones": [
+    "(650) 212-3313"
+   ],
+   "urls": [
+    "http://sd13.senate.ca.gov"
+   ],
+   "emails": [
+    "senator.hill@senate.ca.gov"
+   ]
+  },
+  {
+   "name": "Marc Berman",
+   "address": [
+    {
+     "line1": "State Capitol P.O. Box 942849",
+     "city": "Sacramento",
+     "state": "CA",
+     "zip": "94249"
+    }
+   ],
+   "party": "Democratic",
+   "phones": [
+    "(916) 319-2024"
+   ],
+   "urls": [
+    "https://a24.asmdc.org/"
+   ],
+   "photoUrl": "http://assembly.ca.gov/sites/assembly.ca.gov/files/memberphotos/ad24_berman_roster150_20161205.jpg",
+   "emails": [
+    "assemblymember.berman@assembly.ca.gov"
+   ],
+   "channels": [
+    {
+     "type": "Twitter",
+     "id": "Marc_Berman"
+    }
+   ]
+  }
+ ]
+}
