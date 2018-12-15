@@ -8,6 +8,13 @@
 .atom/
 .buildlog/
 .history
+.metadata
+.packages
+android/
+build/
+ios/
+
+
 
 # IntelliJ related
 *.iml
